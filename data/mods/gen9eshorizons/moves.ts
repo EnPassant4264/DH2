@@ -1230,6 +1230,8 @@ export const Moves: {[moveid: string]: ModdedMoveData} = {
 			status: 'tox',
 		},
 		contestType: "Cool",
+		desc: "Has a 30% chance to badly poison the target.",
+		shortDesc: "30% chance to badly poison foe(s).",
 	},
 	barrage: {
 		inherit: true,
@@ -6076,6 +6078,11 @@ export const Moves: {[moveid: string]: ModdedMoveData} = {
 		},
 		desc: "One of the user's known moves, besides this move, is selected for use at random. Fails if the user is not asleep. The selected move does not have PP deducted from it, and can currently have 0 PP. This move cannot select Assist, Beak Blast, Belch, Bide, Copycat, Dynamax Cannon, Focus Punch, Me First, Metronome, Mimic, Mirror Move, Nature Power, Revival Blessing, Shell Trap, Sketch, Sleep Talk, Slip Away, Struggle, Uproar, or any two-turn move.",
 	},
+	snowscape: {
+		inherit: true,
+		desc: "For 5 turns, the weather becomes Snow. During the effect, the Defense of Ice-type Pokemon is multiplied by 1.5 when taking damage from a physical attack. At the end of each turn except the last, all active Pokemon lose 1/16 of their maximum HP, rounded down, unless they are an Ice type or have the Ice Breaker, Ice Body, Magic Guard, Magma Armor, Overcoat, Purifying Salt, Snow Cloak, or Snow Plow Abilities. If a Pokemon is frozen, the residual damage will combine to 1/8 of its max HP sourced from being frozen. Lasts for 8 turns if the user is holding Icy Rock. Fails if the current weather is Snow.",
+		shortDesc: "For 5 turns, snow falls; cold hurts non-Ice types. Ice: 1.5x Def.",
+	},
 	
 	/* Renamed and deleted moves */
 	axekick: null,
@@ -6130,6 +6137,7 @@ export const Moves: {[moveid: string]: ModdedMoveData} = {
 	},
 	doubleshock: null,
 	flowertrick: null,
+	hail: null,
 	lunarray: {
 		num: 714,
 		accuracy: 100,
@@ -6155,7 +6163,6 @@ export const Moves: {[moveid: string]: ModdedMoveData} = {
 	psychicfangs: null,
 	psyshieldbash: null,
 	ragefist: null,
-	snowscape: null,
 	solarimpact: {
 		num: 713,
 		accuracy: 100,
